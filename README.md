@@ -24,7 +24,7 @@ The .cube LUTs also work with **Comfy Essentials Image Apply LUT node**, so you 
 
 ## TL;DR Basic Usage
 
-- Load your source image (or use the default image.)
+- Load your source image or video (or use the default image.)
 - Adjust controls to tweak color curves, exposure, contrast, and more.
 - Preview changes in real-time.
 - Export LUTs for `.cube` format or **Unity PNG**.
@@ -36,6 +36,8 @@ The .cube LUTs also work with **Comfy Essentials Image Apply LUT node**, so you 
 
 - Generate 3D LUTs quickly with GPU acceleration.
 - You can load in your own images to preview the LUT effect.
+- You can also load a video (MP4, or any format your browser can play, e.g. WebM) and preview the LUT on it in real time, with play/pause, seek and mute controls.
+  - MP4 needs a browser with H.264 support (Chrome, Edge, Safari, Firefox on most systems).
 - Support for industry-standard `.cube` LUT format.
   - Resolutions **17, 32, 64**.
 - Unity support (PNG LUT texture)
